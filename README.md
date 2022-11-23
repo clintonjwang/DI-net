@@ -1,4 +1,4 @@
-# Discretization Invariance for Deep Learning on Neural Fields
+# Discretization Invariant Learning on Neural Fields
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/clintonjwang/DI-Net/blob/main/LICENSE)
 
