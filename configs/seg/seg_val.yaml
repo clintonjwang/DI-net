@@ -1,0 +1,13 @@
+network:
+  task: segment
+data loading:
+  seg type: fine
+  batch size: 32
+  subset: val
+  dataset: cityscapes
+  classes: 7
+  discretization type: qmc
+  sample points: 4608
+  image shape:
+  - 48
+  - 96

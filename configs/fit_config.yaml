@@ -1,0 +1,43 @@
+cityscapes:
+  network:
+    type: SIREN
+  data loading:
+    end_ix: 100
+    variables: img, seg
+    image shape:
+    - 256
+    - 512
+  optimizer:
+    max steps: 2500
+fmnist:
+  network:
+    type: SIREN
+  data loading:
+    end_ix: 5000
+    subset: train
+    variables: img, cls
+  optimizer:
+    max steps: 1200
+inet12:
+  network:
+    type: SIREN
+  data loading:
+    end_ix: 100
+  optimizer:
+    max steps: 2000
+inet_rff:
+  network:
+    type: RFF
+  data loading:
+    end_ix: 100
+    dataset: inet12
+  optimizer:
+    max steps: 4000
+oasis:
+  network:
+    type: SIREN
+  data loading:
+    end_ix: 1000
+    subset: train
+  optimizer:
+    max steps: 2000

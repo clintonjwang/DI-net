@@ -1,0 +1,12 @@
+parent: classify
+data loading:
+  N: 200
+  batch size: 96
+  subset: test
+  dataset: inet12
+  datapoints per class: 1920
+  classes: 12
+  sample points: 1024
+  image shape:
+  - 32
+  - 32

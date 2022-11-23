@@ -1,0 +1,11 @@
+parent: seg_train
+network:
+  type: NUFTSeg
+data loading:
+  input discretization: rqmc
+  sample points: 4608
+  test discretization:
+    type: grid
+    image shape:
+    - 48
+    - 96

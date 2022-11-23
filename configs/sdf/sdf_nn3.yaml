@@ -1,0 +1,10 @@
+parent: sdf_train
+network:
+  type: Sdf3d
+data loading:
+  input discretization:
+    type: grid
+    image shape:
+    - 16
+    - 16
+    - 16

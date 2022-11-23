@@ -1,0 +1,18 @@
+random seed: 0
+paths:
+  slurm output dir: ~/code/inrnet/results
+  temp dir: ~/code/inrnet/temp
+network:
+  frozen: false
+  conv: {}
+  output NF parameterization: MLPField
+optimizer:
+  type: AdamW
+  weight decay: 1e-3
+data loading:
+  domain:
+    type: orthotope
+    dims:
+    - 2
+    - 2
+    - 2

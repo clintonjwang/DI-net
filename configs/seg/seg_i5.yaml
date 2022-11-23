@@ -1,0 +1,3 @@
+parent: seg_train
+network:
+  type: ISeg5

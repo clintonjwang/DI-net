@@ -1,0 +1,11 @@
+parent: sdf_train
+network:
+  type: ISdf3d
+data loading:
+  batch size: 16
+  input discretization: rqmc
+  test output discretization:
+    type: grid_slice
+    image shape:
+      - 128
+      - 128

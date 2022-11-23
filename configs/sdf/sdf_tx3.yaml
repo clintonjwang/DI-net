@@ -1,0 +1,3 @@
+parent: sdf_train
+network:
+  type: TxSdf3d

@@ -1,0 +1,6 @@
+parent: inet_train
+network:
+  type: MLPCls
+optimizer:
+  learning rate: 1e-3
+  max steps: 2000

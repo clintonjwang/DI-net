@@ -1,0 +1,20 @@
+parent: classify
+network:
+  type: inr-effnet-s3
+data loading:
+  augment: true
+  batch size: 192
+  subset: train
+  dataset: inet12
+  datapoints per class: 1920
+  input channels: 3
+  classes: 12
+  sample points: 4096
+  discretization type: rqmc
+  image shape:
+  - 64
+  - 64
+optimizer:
+  learning rate: 1e-3
+  max steps: 4000
+#N=9600 / bsz * 40 epochs

@@ -1,0 +1,6 @@
+parent: inet_val
+data loading:
+  sample points: 16384
+  image shape:
+  - 128
+  - 128

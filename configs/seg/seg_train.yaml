@@ -1,0 +1,20 @@
+network:
+  task: segment
+  type: inr-convnext
+  pretrained: true
+  frozen: false
+data loading:
+  seg type: coarse
+  batch size: 32
+  subset: train
+  dataset: cityscapes
+  classes: 7
+  discretization: grid
+  sample points: 4608
+  image shape:
+  - 48
+  - 96
+optimizer:
+  type: AdamW
+  learning rate: 1e-3
+  max steps: 10000

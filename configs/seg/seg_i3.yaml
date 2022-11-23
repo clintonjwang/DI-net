@@ -1,0 +1,4 @@
+parent: seg_train
+network:
+  type: ISeg3
+  discretization type: grid

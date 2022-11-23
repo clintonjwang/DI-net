@@ -1,0 +1,4 @@
+parent: sdf_i3
+data loading:
+  input discretization: rqmc
+  test discretization: shrunk

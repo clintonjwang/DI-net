@@ -1,0 +1,17 @@
+parent: classify
+network:
+  type: inr-effnet-s3
+data loading:
+  batch size: 96
+  subset: train
+  dataset: shapenet
+  classes: 12
+  sample points: 1024
+  image shape:
+  - 32
+  - 32
+  - 32
+optimizer:
+  learning rate: 1e-3
+  max steps: 16000
+#N=9600 / bsz * 40 epochs

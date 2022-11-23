@@ -1,0 +1,4 @@
+parent: seg_val
+data loading:
+  seg type: coarse
+  batch size: 128
