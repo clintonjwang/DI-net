@@ -1,4 +1,4 @@
-# Discretization Invariant Learning on Neural Fields
+# Discretization Invariant Networks for Learning Maps between Neural Fields
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/clintonjwang/DI-Net/blob/main/LICENSE)
 
@@ -84,16 +84,16 @@ Most code was run on NVIDIA Quadro RTX 5000.
 
 ## Citation
 
-**[Approximate Discretization Invariance for Deep Learning on Implicit Neural Datasets](https://arxiv.org/abs/2206.01178)**<br>
+**[Discretization Invariant Networks for Learning Maps between Neural Fields](https://arxiv.org/abs/2206.01178)**<br>
 [Clinton J. Wang](https://clintonjwang.github.io/) and [Polina Golland](https://people.csail.mit.edu/polina/)<br>
-[NeurIPS Workshop on Symmetry and Geometry in Neural Representations 2022](https://www.neurreps.org/)
+[Transactions on Machine Learning Research 2023](https://jmlr.org/tmlr/)
 
 If you find this work useful please use the following citation:
 ```
-@misc{wang2022dinet,
-      title={Approximate Discretization Invariance for Deep Learning on Implicit Neural Datasets}, 
+@misc{wang2023dinet,
+      title={Discretization Invariant Networks for Learning Maps between Neural Fields}, 
       author={Clinton J. Wang and Polina Golland},
-      year={2022},
+      year={2023},
       eprint={2206.01178},
       archivePrefix={arXiv},
       primaryClass={cs.LG}
